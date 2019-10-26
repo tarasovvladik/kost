@@ -18,7 +18,7 @@ body{
     margin-bottom: 96px;
 }
 header{
-    min-height: 640px;
+    min-height: 50px;
 }
 .main-photo{
     display: block;
