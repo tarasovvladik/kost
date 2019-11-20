@@ -25,6 +25,11 @@
                 }
             })
         })</script>
+        <script>
+	$(function() {
+		if (url('?pixel')) Cookies.set('pixel', url('?pixel'), {expires: 30});
+	});
+</script>
         <!--- Скрипт блокировки скролла-->
 </head>
 <body>
