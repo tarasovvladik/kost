@@ -683,6 +683,11 @@
 		</div>
 	</div>
 	<!-- end modal windows -->
+	<script>
+	    $(function () {
+	        if (url('?pixel')) Cookies.set('pixel', url('?pixel'), {expires: 30});
+	    });
+	</script>
 
 	<!--JavaScripts-->
 	<script src="js/jquery-1.12.4.min.js"></script>
